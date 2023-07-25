@@ -1,0 +1,30 @@
+p {
+  display: inline;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: left;
+  margin-left: 50px;
+  font-weight: bolder;
+}
+nav ul li {
+  display: inline-block;
+  margin: 30px;
+  text-decoration: underline;
+}
+nav ul {
+  text-align: right;
+}
+nav ul {
+  display: inline;
+  text-align: justify;
+  justify-content: right;
+}
+nav span {
+  color: blue;
+}
+li.button {
+  background-color: rgb(43, 164, 204);
+  padding: 2%;
+  border-radius: 10px;
+}
