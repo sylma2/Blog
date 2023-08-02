@@ -39,7 +39,8 @@ nav ul li button {
   border-radius: 5px;
   text-decoration: none;
   padding: 20px;
-  border: rgb(43, 164, 204);
+  border: none;
   color: #232340;
   font-size: 18px;
+  cursor: pointer;
 }
