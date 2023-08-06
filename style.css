@@ -1,7 +1,15 @@
+h1,
+p {
+  margin: 0;
+}
+
 * {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    background-color: rgb(250, 249, 246);
+}
+
+body {
+  background-color: rgb(250, 249, 246);
 }
 
 nav {
@@ -46,42 +54,47 @@ nav ul li button {
   cursor: pointer;
 }
 
-.cafels {
+.articles {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  gap: 3rem;
 }
 
-.zoom {
-  display: inline-block;
-  justify-content: center;
-  text-align: left;
+.articles .article .article-image {
+  width: 100%;
+}
+
+.articles .article {
+  box-shadow: 14px 35px 52px -1px rgba(0, 0, 0, 0.52);
   width: 30%;
-  background-color: white;
-  border-radius: 5px;
-  margin-top: 20px;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
-.zoom img {
- width: 400px;
- margin: auto;
+.article .article-content {
+  padding: 30px 20px;
 }
 
-.zoom h1 {
+.article .article-content .article-description {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.article .article-content h1 {
   font-weight: bold;
-  color: #5468E7;
+  color: #5468e7;
   text-align: left;
+  font-size: 24px;
 }
 
-.reader {
-display: flex;
-justify-content: space-around;
+.articles .article .article-author {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #5468e7;
+  font-size: 14px;
 }
 
-.reader img {
-  width: 60px;
-}
-
-.reader h1 {
-  font-size: 15px;
-  font-weight: 1;
-}
