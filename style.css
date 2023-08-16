@@ -150,3 +150,25 @@ footer ul li {
   margin: auto;
   padding: 50px 0;
 }
+
+.input-footer {
+  background-color: gray;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.input-footer input {
+  background-color: gray;
+  border: none;
+  color: #f5f5f5;
+  padding: 6px;
+}
+
+.input-footer input::placeholder {
+  color: #f5f5f5;
+}
+
+.input-footer img {
+  width: 12px;
+  justify-content: center;
+}
